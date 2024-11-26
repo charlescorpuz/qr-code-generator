@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
-    <link rel="stylesheet" href="script.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <p>Enter URL</p>
-        <input type="text" placeholder="URL" id="url">
+        <h2>QR Code Generator</h2>
+        <p>Enter website URL</p>
+        <input type="text" placeholder="Enter URL here" id="url">
+        <p>Preview</p>
         <div id="qr">
             <img src="" id="code">
         </div>
-        <button onclick="generate()">Generate QR Code</button>
+        <button onclick="generate()">Generate</button>
     </div>
     <script src="script.js"></script>
 </body>

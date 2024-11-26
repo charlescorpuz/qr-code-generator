@@ -1,19 +1,60 @@
 * {
+    font-size: 100%;
     margin: 0;
     padding: 0;
     text-decoration: 0;
 }
 
-#qr {
+body {
+    background: #000;
+}
+
+h2 {
+    color: #00AAFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+p {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 25px 0px;
+}
+
+input[type=text] {
+    border: none;
     border-radius: 5px;
-    max-height: 0;
-    overflow: hidden;
-    width: 200px;
+    color: #D8D8D8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 15px 27px;
+}
+
+button {
+    background-color: #00AAFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    margin-top: 69px;
+    padding: 18px 29px;
+}
+
+#qr {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 225px;
+    padding: 25px;
+    width: 225px;
     transition: max-height 1s;
 }
 
 #qr img {
-    padding: 10px;
     width: 100%;
 }
 
